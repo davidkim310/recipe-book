@@ -1,0 +1,12 @@
+.jumbotron {
+    background: url("http://i.imgur.com/Pv0sbmS.jpg") no-repeat center center;
+    opacity: 0.5;
+    position: fixed;
+    width: 100%;
+}
+
+
+h1, p {
+    color: #00BC8C;
+    text-align: center
+}

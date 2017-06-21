@@ -8,12 +8,12 @@ import { AppComponent } from './app.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { ListComponent } from './recipes/list/list.component';
 import { ItemComponent } from './recipes/list/item/item.component';
-import { DetailsComponent } from './recipes/list/item/details/details.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { NavComponent } from './nav/nav.component';
 import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
 import { RecipeDetailsComponent } from './recipes/recipe-details/recipe-details.component';
 import { HomeComponent } from './home/home.component';
+import { DetailsComponent } from './recipes/details/details.component';
 
 @NgModule({
   declarations: [
@@ -22,16 +22,15 @@ import { HomeComponent } from './home/home.component';
     ListComponent,
     ItemComponent,
     ItemComponent,
-    DetailsComponent,
     ItemComponent,
     ItemComponent,
     ItemComponent,
-    DetailsComponent,
     ShoppingListComponent,
     NavComponent,
     RecipeEditComponent,
     RecipeDetailsComponent,
-    HomeComponent
+    HomeComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
